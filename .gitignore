@@ -7,6 +7,7 @@
 *.bck
 *-bak/
 _autosave-*
+ece-4275-final-backups
 
 # KiCad 5/6/7 auto-save
 *-save.kicad_pcb
@@ -14,6 +15,9 @@ _autosave-*
 
 # Project-level backups
 */backups/
+
+# KiCad file history
+.history/
 
 # Fabrication outputs (regenerate from source)
 gerbers/
