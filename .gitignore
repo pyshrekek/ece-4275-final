@@ -45,6 +45,7 @@ fab/
 *.bom
 
 # KiCad temp files
+*.lck
 *.lock
 fp-info-cache
 
