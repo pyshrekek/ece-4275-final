@@ -1,0 +1,49 @@
+# KiCad project gitignore
+
+.DS_Store
+
+# Backup files
+*.bak
+*.bck
+*-bak/
+_autosave-*
+
+# KiCad 5/6/7 auto-save
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Project-level backups
+*/backups/
+
+# Fabrication outputs (regenerate from source)
+gerbers/
+fab/
+*.gbr
+*.drl
+*.dxf
+*.svg
+*.pdf
+*.pos
+*.csv
+*.rpt
+*.xml
+*.zip
+
+# 3D renders
+*.step
+*.stp
+*.wrl
+
+# Netlist (regenerated)
+*.net
+
+# BOM (regenerated)
+*.bom
+
+# KiCad temp files
+*.lock
+fp-info-cache
+
+# OS files
+.DS_Store
+Thumbs.db
