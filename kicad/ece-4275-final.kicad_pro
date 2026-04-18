@@ -645,13 +645,21 @@
         "uuid": "0c77f2af-cddb-472c-9a1b-8caed066380b"
       }
     ],
-    "used_designators": "RFBT1,RFBB1,#FLG1-8,Cin1,L1,CBOOT1,C1-12,#PWR3-10,R1-2,CFF1,U2-3",
+    "used_designators": "R1,U3-6,C2,C4,C6,C13-16,RFBT2,#PWR1-3,#PWR10-19,RFBB2,CBOOT2,L2,Cin2,CHF3-4,#FLG2-3,#FLG9,CFF2",
     "variants": []
   },
   "sheets": [
     [
       "0c77f2af-cddb-472c-9a1b-8caed066380b",
       "Root"
+    ],
+    [
+      "167f753a-fae8-4012-a51b-ccb245803d67",
+      "Stepper Motor Module"
+    ],
+    [
+      "2b780b05-1c86-4b9a-ab1c-3f96b1a36c21",
+      "Power In Regulator"
     ]
   ],
   "text_variables": {},
