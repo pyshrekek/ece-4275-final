@@ -2887,7 +2887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "52.3k"
 			(at 174.5635 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +3600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24.9k"
+		(property "Value" "10k"
 			(at 174.5635 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
