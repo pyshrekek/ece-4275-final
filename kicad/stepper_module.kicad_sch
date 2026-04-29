@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 110.236 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4034,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 172.466 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4949,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Value" "RS"
+		(property "Value" "100m"
 			(at 189.484 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5106,7 @@
 				)
 			)
 		)
-		(property "Value" "CB"
+		(property "Value" "220nF"
 			(at 128.524 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +5185,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 110.236 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 110.236 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,7 +5499,7 @@
 				)
 			)
 		)
-		(property "Value" "RS"
+		(property "Value" "100m"
 			(at 143.764 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 199.136 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Value" "CB"
+		(property "Value" "220nF"
 			(at 139.446 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 197.866 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Value" "CB"
+		(property "Value" "220nF"
 			(at 133.096 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 110.236 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6881,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Value" "CB"
+		(property "Value" "220nF"
 			(at 142.494 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Value" "RG"
+		(property "Value" "22"
 			(at 172.466 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "2.2"
 			(at 55.88 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
