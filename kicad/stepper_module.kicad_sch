@@ -2208,6 +2208,12 @@
 		)
 	)
 	(junction
+		(at 160.02 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0114d84d-23ad-4313-a835-59a2dd0a152a")
+	)
+	(junction
 		(at 189.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2236,12 +2242,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e0d4b18-35ce-4883-b165-c34d67cd3c92")
-	)
-	(junction
-		(at 160.02 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f1fb9d0-401d-4891-a044-a3d6e795a50f")
 	)
 	(junction
 		(at 130.81 41.91)
@@ -2295,7 +2295,7 @@
 		(at 176.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8db4ea48-1717-4f45-a259-8f8e7e6ffe3d")
+		(uuid "8f834a41-81aa-437d-ad8a-5146017e7b13")
 	)
 	(junction
 		(at 34.29 33.02)
@@ -2343,7 +2343,7 @@
 		(at 205.74 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df6a905a-9ec9-465b-b1fe-f6f74a609350")
+		(uuid "ddbed1e6-6f08-43d8-bad3-a5e03f5f6500")
 	)
 	(junction
 		(at 172.72 71.12)
@@ -2981,16 +2981,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 208.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e19161-0879-4c21-92c8-a5d8feaf2983")
-	)
-	(wire
-		(pts
 			(xy 116.84 20.32) (xy 135.89 20.32)
 		)
 		(stroke
@@ -3061,6 +3051,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 71.12) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a571d4c1-073a-4f4a-9544-d4afd92f65bd")
+	)
+	(wire
+		(pts
 			(xy 168.91 55.88) (xy 168.91 66.04)
 		)
 		(stroke
@@ -3071,7 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 71.12) (xy 180.34 71.12)
+			(xy 172.72 71.12) (xy 176.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3151,13 +3151,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 176.53 71.12)
+			(xy 176.53 71.12) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8ef15e9-373b-4fb4-a6b9-e6b497658a46")
+		(uuid "b9688359-dc44-45f1-80b7-6edf62eec38b")
 	)
 	(wire
 		(pts
@@ -3670,6 +3670,99 @@
 		(uuid "fa82308c-5d7c-4bd5-bdd6-312a90d50903")
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC440N10NS3G")
+		(at 162.56 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07f41060-857a-4416-b52c-25421950d039")
+		(property "Reference" "Q4"
+			(at 157.48 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 158.75 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 157.48 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
+			(at 157.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
+			(at 162.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3635d8c0-f6be-4e99-9e5b-b90770d07eb6")
+		)
+		(pin "4"
+			(uuid "8fb90528-4b74-4e36-bed8-3fb5919f6566")
+		)
+		(pin "3"
+			(uuid "79a75d4b-2b73-4d8f-b5ed-6f17e5b9f117")
+		)
+		(pin "2"
+			(uuid "f1732355-4a35-4008-abe4-db11a667ae0a")
+		)
+		(pin "1"
+			(uuid "ef331582-cdf0-4e73-a146-269b1f515589")
+		)
+		(instances
+			(project "ece-4275-final"
+				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 29.21 0)
 		(unit 1)
@@ -3777,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -3856,7 +3949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -3935,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -4016,7 +4109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.1348 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +4189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -4145,6 +4238,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC440N10NS3G")
+		(at 173.99 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "162076c1-8697-4bce-9c2f-1430528ce906")
+		(property "Reference" "Q5"
+			(at 179.07 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 177.8 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 179.07 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
+			(at 179.07 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
+			(at 173.99 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a930b441-4967-4157-bd22-5a722cce78d2")
+		)
+		(pin "4"
+			(uuid "1acbd105-8e77-4317-8a91-ba093525ce15")
+		)
+		(pin "3"
+			(uuid "62367b7b-f792-422e-8bc6-ae42e5fe2689")
+		)
+		(pin "2"
+			(uuid "32cc04a2-1dad-42cf-b23f-ccb22e37a165")
+		)
+		(pin "1"
+			(uuid "5b29f12e-16c0-42ed-a3ef-35083e3709da")
+		)
+		(instances
+			(project "ece-4275-final"
+				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 109.22 74.93 90)
 		(unit 1)
@@ -4175,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -4224,6 +4410,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC440N10NS3G")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26ce610c-b35b-46f8-8f24-33a44c8a6ef8")
+		(property "Reference" "Q6"
+			(at 179.07 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 177.8 79.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 179.07 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
+			(at 179.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "59b6c7d1-4009-46e0-9b52-922f26852368")
+		)
+		(pin "4"
+			(uuid "90871b3f-8cb7-4207-a596-bf03b8f4a40a")
+		)
+		(pin "3"
+			(uuid "8279764a-fbe8-4d1e-a6b5-2893bb87f64f")
+		)
+		(pin "2"
+			(uuid "f33c9399-b5a3-4395-a72c-78896a0b5b73")
+		)
+		(pin "1"
+			(uuid "c55fd23a-7061-47d0-b2f6-bb5b8ebb2444")
+		)
+		(instances
+			(project "ece-4275-final"
+				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 24.13 180)
 		(unit 1)
@@ -4256,7 +4535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.9048 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSC440N10NS3G"
+		(property "Value" "BSZ150N10NS3-G"
 			(at 132.08 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,7 +4694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 133.35 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -4585,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -4634,100 +4913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 208.28 66.04 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "406594fa-d8f9-4868-9e0c-0d4ca03d92b3")
-		(property "Reference" "Q7"
-			(at 201.93 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC440N10NS3G"
-			(at 201.93 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 203.2 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 203.2 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 208.28 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "e1427e63-fb65-4555-bec5-d04b381ac32d")
-		)
-		(pin "4"
-			(uuid "648dee80-fcfc-45b0-94cb-3df9c22f5b09")
-		)
-		(pin "3"
-			(uuid "f64bcd90-4462-41d4-a9c3-73601f8a8c52")
-		)
-		(pin "2"
-			(uuid "da44e588-a8e7-4313-aef9-9acbf39bce07")
-		)
-		(pin "1"
-			(uuid "ced9f95e-e149-4f96-8978-f847d8aa7c44")
-		)
-		(instances
-			(project "ece-4275-final"
-				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 189.23 90.17 180)
 		(unit 1)
@@ -4758,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.008 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -4801,99 +4986,6 @@
 			(project "ece-4275-final"
 				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 173.99 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48809e40-d7fc-4df4-8916-750cd4e0e708")
-		(property "Reference" "Q5"
-			(at 179.07 66.548 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC440N10NS3G"
-			(at 177.8 69.088 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 179.07 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 179.07 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 173.99 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2ad65cd7-fd08-4b2c-832e-981afd278ec2")
-		)
-		(pin "4"
-			(uuid "cb978037-09b1-4301-b55b-4c4efd922435")
-		)
-		(pin "3"
-			(uuid "11a00f53-35ca-4df5-9695-324d18025745")
-		)
-		(pin "2"
-			(uuid "2baf04dc-3894-42ad-b852-6a044fb99017")
-		)
-		(pin "1"
-			(uuid "6a8aa464-628a-4a08-8557-c44000fc42bb")
-		)
-		(instances
-			(project "ece-4275-final"
-				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -5087,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -5322,7 +5414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -5401,7 +5493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.288 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5562,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.12 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -5611,6 +5703,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC440N10NS3G")
+		(at 162.56 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e1b81e0-9726-49a6-8d03-a51d05714177")
+		(property "Reference" "Q3"
+			(at 157.48 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 158.75 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 157.48 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
+			(at 157.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
+			(at 162.56 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "5686a6c6-22e8-4616-84fc-2ec1e99c9b10")
+		)
+		(pin "4"
+			(uuid "698490db-4493-4e87-99e6-769d44d217cc")
+		)
+		(pin "3"
+			(uuid "a8230ce9-1045-4b59-919b-1fb93e5615be")
+		)
+		(pin "2"
+			(uuid "712645d3-455b-4e85-b48e-eb3616940958")
+		)
+		(pin "1"
+			(uuid "6019b4e5-c621-4a7d-9f20-0b947235957f")
+		)
+		(instances
+			(project "ece-4275-final"
+				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 85.09 90)
 		(unit 1)
@@ -5641,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -5723,7 +5908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 136.8552 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5804,7 +5989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.5548 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -5854,7 +6039,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 208.28 76.2 180)
+		(at 128.27 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5862,10 +6047,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9261d064-b286-49fc-a97c-321d59cf85c9")
-		(property "Reference" "Q8"
-			(at 201.93 74.9299 0)
+		(uuid "91535b4e-db67-4d39-9947-0015f53a3eaa")
+		(property "Reference" "Q2"
+			(at 133.35 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5875,8 +6059,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSC440N10NS3G"
-			(at 201.93 77.4699 0)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 132.08 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5886,8 +6070,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 203.2 74.295 0)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 133.35 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 203.2 72.39 0)
+			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +6096,7 @@
 			)
 		)
 		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 208.28 76.2 0)
+			(at 128.27 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,24 +6107,24 @@
 			)
 		)
 		(pin "5"
-			(uuid "770739b5-66e3-465b-98f2-46a2db069733")
+			(uuid "ef7427c4-47fa-4ce0-9e38-b612e7003024")
 		)
 		(pin "4"
-			(uuid "85d32b40-d430-428e-b732-b9552fda2c2d")
+			(uuid "4dd70070-a009-4fa0-8f92-d2fe84f0eafb")
 		)
 		(pin "3"
-			(uuid "e595ecbf-8be9-458b-b5e5-4ec03dffad1d")
+			(uuid "47a14a4f-d336-4125-bcd7-5f53fb1d3a8d")
 		)
 		(pin "2"
-			(uuid "fcfea65f-13ee-4040-bb98-06a86784880d")
+			(uuid "f1fad6b1-9d55-4720-9f88-8db3f9102810")
 		)
 		(pin "1"
-			(uuid "608fefda-5358-4119-82f5-cdece5553977")
+			(uuid "7ded4552-be2e-4537-b973-8ef2ad32f115")
 		)
 		(instances
 			(project "ece-4275-final"
 				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q8")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5977,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.85 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -6059,7 +6243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.8452 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6139,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 32.0548 0)
 			(hide yes)
 			(show_name no)
@@ -6344,100 +6528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 162.56 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b48c6310-0ba5-47fd-a4a0-4889316a9d26")
-		(property "Reference" "Q3"
-			(at 156.21 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC440N10NS3G"
-			(at 156.21 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 157.48 34.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 157.48 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 162.56 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "6b63f667-32ef-4a71-a012-c3b0c13d5eee")
-		)
-		(pin "4"
-			(uuid "62b328b7-9eae-49a8-9cae-08c8dcec7ecc")
-		)
-		(pin "3"
-			(uuid "6465e915-8e33-4e94-993c-ba70cff3aad7")
-		)
-		(pin "2"
-			(uuid "585b3268-3c0d-4e53-ba4b-57a441273d48")
-		)
-		(pin "1"
-			(uuid "27dd0edb-e808-45eb-acbc-82c4d1bd79d7")
-		)
-		(instances
-			(project "ece-4275-final"
-				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 130.81 87.63 90)
 		(unit 1)
@@ -6468,7 +6558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -6517,99 +6607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 128.27 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb4d1391-8351-4275-9b13-a3f2961ca7e7")
-		(property "Reference" "Q2"
-			(at 133.35 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC440N10NS3G"
-			(at 132.588 50.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 133.35 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 128.27 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6973742e-417a-4051-a3bf-25e5bc7393f6")
-		)
-		(pin "3"
-			(uuid "ab4156c6-7674-45b2-84b1-a3d73cd84185")
-		)
-		(pin "4"
-			(uuid "cdc0abb1-d47c-4f54-9ba6-0ad1dfaad82d")
-		)
-		(pin "2"
-			(uuid "ae89c455-7405-4b67-a53a-46f08e62ef6e")
-		)
-		(pin "5"
-			(uuid "c26e9306-6fed-4de4-b895-87efb636c1e1")
-		)
-		(instances
-			(project "ece-4275-final"
-				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 46.99 22.86 90)
 		(unit 1)
@@ -6641,7 +6638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -6799,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -6921,100 +6918,6 @@
 			(project "ece-4275-final"
 				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 162.56 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d75539ef-ebb2-49d1-b5b8-d50f813bfacb")
-		(property "Reference" "Q4"
-			(at 156.21 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC440N10NS3G"
-			(at 156.21 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 157.48 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 157.48 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 162.56 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "03ccf2fb-fc17-452e-be2d-49fcf7c0c1ea")
-		)
-		(pin "4"
-			(uuid "7c0724f9-fe7d-4a9f-8d2a-5f8bd4e02445")
-		)
-		(pin "3"
-			(uuid "2362eade-cdb9-4e9f-ae92-8bf377387059")
-		)
-		(pin "2"
-			(uuid "883b766e-5455-439f-8cf0-6830b90086e1")
-		)
-		(pin "1"
-			(uuid "ce1d0ac3-8c35-4fbb-aa53-c065d074196d")
-		)
-		(instances
-			(project "ece-4275-final"
-				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7274,7 +7177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -7434,7 +7337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7469,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSC440N10NS3G")
-		(at 173.99 76.2 0)
+		(at 208.28 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7574,9 +7477,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f9a6526b-a237-4f71-b622-9924a8c9866f")
-		(property "Reference" "Q6"
-			(at 179.07 77.216 0)
+		(uuid "f5e1efbb-e206-4714-b0a0-6013bc72a6d0")
+		(property "Reference" "Q8"
+			(at 203.2 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7586,8 +7489,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSC440N10NS3G"
-			(at 178.308 79.756 0)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 204.47 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7597,8 +7500,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 179.07 78.105 0)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 203.2 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7611,7 +7514,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
-			(at 179.07 80.01 0)
+			(at 203.2 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7526,7 @@
 			)
 		)
 		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
-			(at 173.99 76.2 0)
+			(at 208.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,25 +7536,118 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "83f5f630-201b-4b26-b462-b8626a5e7738")
-		)
-		(pin "3"
-			(uuid "652d8a5a-2eaa-4c31-a64e-496e84bed81a")
+		(pin "5"
+			(uuid "cdfbc6d8-a59d-4b2d-b0db-1994c6a9f0f1")
 		)
 		(pin "4"
-			(uuid "495e4157-231b-43ab-a207-3045f7ab7ba3")
+			(uuid "0cac2bef-5789-42fb-bb3e-418c09814b10")
+		)
+		(pin "3"
+			(uuid "f200dc95-fe4c-4367-b5b5-ee4dc93cff66")
 		)
 		(pin "2"
-			(uuid "0aaaf409-8255-41ab-a6b1-6800716867da")
+			(uuid "aaed4ce5-f0ed-47e2-a96f-6732bcda94a8")
 		)
-		(pin "5"
-			(uuid "2fb24786-f645-42f1-bdfa-61cd6f1bd6b1")
+		(pin "1"
+			(uuid "83cad211-870d-4621-a50c-c84ea9f18d44")
 		)
 		(instances
 			(project "ece-4275-final"
 				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
-					(reference "Q6")
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC440N10NS3G")
+		(at 208.28 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9dead4c-f2ee-4ec2-93e7-61b4b8cdc213")
+		(property "Reference" "Q7"
+			(at 203.2 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSZ150N10NS3-G"
+			(at 204.47 62.992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 203.2 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56"
+			(at 203.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "95b2743b-828f-4bbb-bfb6-a7678e6b711d")
+		)
+		(pin "4"
+			(uuid "ab2779ec-4379-473d-949d-beeb2f363f8c")
+		)
+		(pin "3"
+			(uuid "988eceb1-fb79-41d4-8e48-94eb27c0aed1")
+		)
+		(pin "2"
+			(uuid "bdfbb06a-5718-4a7c-81ee-c9fdcc203332")
+		)
+		(pin "1"
+			(uuid "eb56e514-331e-4f04-96ef-488aa74f7ddf")
+		)
+		(instances
+			(project "ece-4275-final"
+				(path "/0c77f2af-cddb-472c-9a1b-8caed066380b/167f753a-fae8-4012-a51b-ccb245803d67"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 74.168 90)
 			(hide yes)
 			(show_name no)

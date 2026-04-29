@@ -194,7 +194,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -522,7 +524,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../../Downloads/ece-4275-final.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -645,7 +647,7 @@
         "uuid": "0c77f2af-cddb-472c-9a1b-8caed066380b"
       }
     ],
-    "used_designators": "EN1,BOOT1,J1,P1,SW1-2,C9-10,#PWR11,#PWR20-26,R16-19,U1-2",
+    "used_designators": "Q2-9,#PWR29-30,J3-5",
     "variants": []
   },
   "sheets": [
