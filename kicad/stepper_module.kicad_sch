@@ -2226,6 +2226,12 @@
 		(uuid "1c414aa0-0941-4272-a357-e06a6cbbbcfc")
 	)
 	(junction
+		(at 96.52 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20249c44-82f7-4c8e-950c-c563e3043519")
+	)
+	(junction
 		(at 43.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2438,6 +2444,16 @@
 			(type default)
 		)
 		(uuid "12216901-3e11-40b0-add8-72b3eb4e30f5")
+	)
+	(wire
+		(pts
+			(xy 96.52 27.94) (xy 102.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16802a14-ac8c-40a1-b7ee-6e5a1d29d794")
 	)
 	(wire
 		(pts
@@ -3691,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 158.75 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 177.8 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +4447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 177.8 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,7 +4699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 132.08 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 158.75 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 132.08 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 204.47 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +7598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ150N10NS3-G"
+		(property "Value" "BSZ150N10LS3-G"
 			(at 204.47 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)

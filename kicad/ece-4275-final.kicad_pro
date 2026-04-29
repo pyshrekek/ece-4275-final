@@ -196,7 +196,10 @@
       "track_widths": [
         0.0,
         0.4,
-        4.0
+        1.0,
+        1.5,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -228,6 +231,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.5
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.54
         }
       ],
       "zones_allow_external_fillets": false
@@ -647,7 +662,7 @@
         "uuid": "0c77f2af-cddb-472c-9a1b-8caed066380b"
       }
     ],
-    "used_designators": "Q2-9,#PWR29-30,J3-5",
+    "used_designators": "J6-8,#PWR31-37",
     "variants": []
   },
   "sheets": [
