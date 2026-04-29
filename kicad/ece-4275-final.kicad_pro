@@ -662,7 +662,7 @@
         "uuid": "0c77f2af-cddb-472c-9a1b-8caed066380b"
       }
     ],
-    "used_designators": "J6-8,#PWR31-37",
+    "used_designators": "EN1,CFF1,RFBT1,C1-32,U1-5,U7,CHF1-2,R1-34,L1,Cin1,CBOOT1,RFBB1,#PWR1-53,BOOT1,Q1-17,C_E1-2,J1-16",
     "variants": []
   },
   "sheets": [
@@ -677,6 +677,22 @@
     [
       "2b780b05-1c86-4b9a-ab1c-3f96b1a36c21",
       "Power In Regulator"
+    ],
+    [
+      "74ba1dc1-36b9-4733-83cc-6c0706624460",
+      "Two Pin Fan"
+    ],
+    [
+      "a72fc208-b8c8-4ec7-8598-cf78aaa6dafa",
+      "Two Pin Fan1"
+    ],
+    [
+      "ffc1698d-dcfe-4fd9-aace-f1c0eec6f5b5",
+      "Two Pin Fan2"
+    ],
+    [
+      "cd23f2fa-f248-4721-a4bc-81eca79a9aed",
+      "Three Limit Switches"
     ]
   ],
   "text_variables": {},
